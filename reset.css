@@ -12,7 +12,6 @@
 	-webkit-font-smoothing: antialiased;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-o-box-sizing: border-box;
 	box-sizing: border-box;
 }
 html {
@@ -20,6 +19,7 @@ html {
 }
 body {
 	width: 100%; height: 100%;
+	color: #333333;
 	background: white;
 }
 a,
@@ -33,10 +33,17 @@ img {
 	display: block;
 }
 a {
-	color: inherit;
+	color: #0088CC;
 	text-decoration: none;
+	border-bottom: 1px solid #CCCCCC;
+}
+a:hover {
+	color: #005885;
+	border-bottom-color: #005885;
 }
 a:focus {
+	padding: 0 2px;
+	border: none;
 	outline: thin dotted;
 }
 p,
@@ -72,9 +79,9 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-    cursor: pointer;
+	cursor: pointer;
 }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
+	-webkit-appearance: none;
 }
