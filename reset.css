@@ -41,12 +41,9 @@ a:hover {
 	color: #005885;
 	border-bottom-color: #005885;
 }
-a:focus {
-	padding: 0 2px;
-	border: none;
-	outline: thin dotted;
-}
 p,
+pre,
+table,
 blockquote,
 ul,
 ol {
