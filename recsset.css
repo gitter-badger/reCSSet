@@ -1,6 +1,8 @@
 /*
 **	reCSSet by Iqbal Perkasa, @iqbalperkasa
 **	https://github.com/iqbalperkasa/recsset
+**
+**	Under MIT License (http://opensource.org/licenses/MIT)
 */
 
 * {
@@ -49,6 +51,10 @@ ul,
 ol {
 	margin-bottom: 20px;
 }
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 h1,
 h2,
 h3,
@@ -62,8 +68,8 @@ ol li {
 	margin-left: 20px;
 	list-style: none;
 }
-button,
 input,
+button,
 select,
 textarea {
 	font-family: inherit;
