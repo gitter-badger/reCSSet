@@ -1,6 +1,6 @@
 /*
 **	reCSSet by Iqbal Perkasa, @iqbalperkasa
-**	https://github.com/iqbalperkasa/recsset
+**	http://git.io/recsset
 **
 **	Under MIT License (http://opensource.org/licenses/MIT)
 */
@@ -53,6 +53,10 @@ ol {
 }
 table {
 	border-spacing: 0;
+}
+th,
+td {
+	vertical-align: middle;
 }
 h1,
 h2,
