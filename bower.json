@@ -1,0 +1,12 @@
+{
+	"name": "reCSSet",
+	"version": "1.0.0",
+	"description": "Just an ordinary CSS reset.",
+	"author": {
+		"name": "Iqbal Perkasa",
+		"email": "hi@iqbalp.com",
+		"url": "http://iqbalp.com"
+	},
+	"main": "recsset.min.css",
+	"license": "MIT"
+}
