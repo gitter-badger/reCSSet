@@ -1,5 +1,5 @@
 /*
-**	reCSSet by Iqbal Perkasa, @iqbalperkasa
+**	reCSSet, v1.0.1, by Iqbal Perkasa, @iqbalperkasa
 **	http://git.io/recsset
 **
 **	Under MIT License (http://opensource.org/licenses/MIT)
@@ -43,6 +43,11 @@ a:hover {
 	color: #005885;
 	border-bottom-color: #005885;
 }
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
 p,
 pre,
 table,
@@ -50,6 +55,15 @@ blockquote,
 ul,
 ol {
 	margin-bottom: 20px;
+}
+pre {
+	z-index: 9;
+}
+code,
+kbd,
+pre {
+	font-family: monospace, monospace;
+	font-size: inherit;
 }
 table {
 	border-spacing: 0;
@@ -66,10 +80,18 @@ h5,
 h6 {
 	margin-bottom: 20px;
 }
-ul li,
-ol li {
-	margin-left: 20px;
-	list-style: none;
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
 }
 input,
 button,
@@ -80,6 +102,11 @@ textarea {
 }
 input {
 	outline: none;
+}
+fieldset {
+	border: 1px solid #c0c0c0;
+	margin: 0 2px;
+	padding: 0.5em;
 }
 button,
 html input[type="button"],
