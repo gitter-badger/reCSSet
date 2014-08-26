@@ -2,9 +2,11 @@
 
 ----
 
-Just an ordinary CSS reset.
+Just an ordinary CSS reset. Used regularly by [@iqbalperkasa](http://twitter.com/iqbalperkasa). If you think this is something useful, use it. As simple as that.
 
 ### How to Use
+
+Like an ordinary CSS, bro.
 
 ```markup
 <link rel="stylesheet" type="text/css" href="path/to/recsset.min.css">
