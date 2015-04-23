@@ -1,5 +1,5 @@
 /*
-**	reCSSet, v1.0.2, by Iqbal Perkasa, @iqbalperkasa
+**	reCSSet, v1.1.0, by Iqbal Perkasa, @iqbalperkasa
 **	http://git.io/recsset
 **
 **	Under MIT License (http://opensource.org/licenses/MIT)
@@ -37,11 +37,9 @@ img {
 a {
 	color: #0088CC;
 	text-decoration: none;
-	border-bottom: 1px solid #CCCCCC;
 }
 a:hover {
 	color: #005885;
-	border-bottom-color: #005885;
 }
 hr {
 	-moz-box-sizing: content-box;
@@ -49,21 +47,27 @@ hr {
 	height: 0;
 }
 p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
 pre,
 form,
 table,
-blockquote,
-ul,
-ol {
+blockquote {
 	margin-bottom: 20px;
 }
 pre {
 	z-index: 9;
 }
-code,
 kbd,
-pre {
-	font-family: monospace, monospace;
+pre,
+code {
+	font-family: monospace;
 	font-size: inherit;
 }
 table {
@@ -72,14 +76,6 @@ table {
 th,
 td {
 	vertical-align: middle;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin-bottom: 20px;
 }
 sub,
 sup {
